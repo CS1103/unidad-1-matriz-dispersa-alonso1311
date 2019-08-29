@@ -17,8 +17,8 @@ public:
     void Mostrar(int filas, int columnas);
 
     void Suma(Matriz, Matriz);
-    void Multiplicación(Matriz, Matriz);
-    void Multiplicación_Escalar(Matriz, Matriz);
+    void Multiplicacion(Matriz, Matriz);
+    void Multiplicacion_Escalar(Matriz, Matriz);
     void Transportacion(Matriz);
 
     virtual ~Matriz();
