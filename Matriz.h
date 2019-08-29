@@ -8,16 +8,20 @@
 
 class Matriz {
 private:
-    double filas, columnas;
+    int filas, columnas;
+    double** ptr_matriz;
 public:
     Matriz(double filas, double columnas);
+
+    void Rellenar(int filas, int columnas);
+    void Mostrar(int filas, int columnas);
 
     void Suma(Matriz, Matriz);
     void Multiplicación(Matriz, Matriz);
     void Multiplicación_Escalar(Matriz, Matriz);
     void Transportacion(Matriz);
 
-
+    virtual ~Matriz();
 };
 
 
