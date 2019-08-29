@@ -11,7 +11,7 @@ private:
     int filas, columnas;
     double** ptr_matriz;
 public:
-    Matriz(double filas, double columnas);
+    Matriz(int filas, int columnas);
 
     void Rellenar(int filas, int columnas);
     void Mostrar(int filas, int columnas);
