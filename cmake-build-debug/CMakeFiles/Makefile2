@@ -58,45 +58,45 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz"
+CMAKE_SOURCE_DIR = "C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz_Dispersa"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz_Dispersa\cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/Matriz.dir
+# Target rules for target CMakeFiles/Matriz_Dispersa.dir
 
 # All Build rule for target.
-CMakeFiles/Matriz.dir/all:
-	$(MAKE) -f CMakeFiles\Matriz.dir\build.make CMakeFiles/Matriz.dir/depend
-	$(MAKE) -f CMakeFiles\Matriz.dir\build.make CMakeFiles/Matriz.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Matriz"
-.PHONY : CMakeFiles/Matriz.dir/all
+CMakeFiles/Matriz_Dispersa.dir/all:
+	$(MAKE) -f CMakeFiles\Matriz_Dispersa.dir\build.make CMakeFiles/Matriz_Dispersa.dir/depend
+	$(MAKE) -f CMakeFiles\Matriz_Dispersa.dir\build.make CMakeFiles/Matriz_Dispersa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz_Dispersa\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Matriz_Dispersa"
+.PHONY : CMakeFiles/Matriz_Dispersa.dir/all
 
 # Include target in all.
-all: CMakeFiles/Matriz.dir/all
+all: CMakeFiles/Matriz_Dispersa.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Matriz.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Matriz.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/Matriz.dir/rule
+CMakeFiles/Matriz_Dispersa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz_Dispersa\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Matriz_Dispersa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ALONSO\CLionProjects\POO II_Second\Matriz_Dispersa\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Matriz_Dispersa.dir/rule
 
 # Convenience name for target.
-Matriz: CMakeFiles/Matriz.dir/rule
+Matriz_Dispersa: CMakeFiles/Matriz_Dispersa.dir/rule
 
-.PHONY : Matriz
-
-# clean rule for target.
-CMakeFiles/Matriz.dir/clean:
-	$(MAKE) -f CMakeFiles\Matriz.dir\build.make CMakeFiles/Matriz.dir/clean
-.PHONY : CMakeFiles/Matriz.dir/clean
+.PHONY : Matriz_Dispersa
 
 # clean rule for target.
-clean: CMakeFiles/Matriz.dir/clean
+CMakeFiles/Matriz_Dispersa.dir/clean:
+	$(MAKE) -f CMakeFiles\Matriz_Dispersa.dir\build.make CMakeFiles/Matriz_Dispersa.dir/clean
+.PHONY : CMakeFiles/Matriz_Dispersa.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Matriz_Dispersa.dir/clean
 
 .PHONY : clean
 

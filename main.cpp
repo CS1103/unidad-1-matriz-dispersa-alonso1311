@@ -1,13 +1,12 @@
 #include "Definiciones.h"
-#include "Matriz.h"
-#include "Matriz.cpp"
+#include "Matriz_Dispersa.h"
+#include "Matriz_Dispersa.cpp"
 
 int main() {
+    Matriz_Dispersa* matriz = new Matriz_Dispersa(4,4);
 
-    Matriz* matriz = new Matriz(3,3);
-
-    matriz->Rellenar();
-
-    matriz->Mostrar();
+    matriz->Rellenar_Datos();
+    matriz->Imprimir_Matriz();
+    delete matriz;
     return 0;
 }
