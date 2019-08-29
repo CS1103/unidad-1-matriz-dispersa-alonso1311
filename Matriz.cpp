@@ -4,7 +4,7 @@
 
 #include "Matriz.h"
 
-Matriz::Matriz(double filas, double columnas) : filas(filas), columnas(columnas) {
+Matriz::Matriz(int filas, int columnas) : filas(filas), columnas(columnas) {
     ptr_matriz = new double*[filas];
     for (int i = 0; i < filas; ++i) {
         ptr_matriz[i] = new double[columnas];
@@ -31,11 +31,11 @@ void Matriz::Suma(Matriz, Matriz) {
 
 }
 
-void Matriz::Multiplicación(Matriz, Matriz) {
+void Matriz::Multiplicacion(Matriz, Matriz) {
 
 }
 
-void Matriz::Multiplicación_Escalar(Matriz, Matriz) {
+void Matriz::Multiplicacion_Escalar(Matriz, Matriz) {
 
 }
 
