@@ -21,5 +21,5 @@ unidad-1-matriz-dispersa-alonso1311 created by GitHub Classroom
 | Nombre          | Código    |
 | :-------------: | :-------: |
 | Alonso Winston  | 201810483 |
-| Christian Salazar | XXXXXXXXX |
+| Christian Salazar | 201810716 |
 | Mauricio Rodriguez  | XXXXXXXXX |
