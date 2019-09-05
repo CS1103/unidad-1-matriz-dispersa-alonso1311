@@ -28,6 +28,7 @@ public:
     friend MatrizDispersa operator *(const int &,const MatrizDispersa &);
     friend MatrizDispersa operator*(const MatrizDispersa &, const MatrizDispersa &);
     friend MatrizDispersa operator+(const MatrizDispersa &,const MatrizDispersa &);
+    friend MatrizDispersa operator-(const MatrizDispersa &,const MatrizDispersa &);
     void rellenar();
     int getElement(int &firstIndex,int &secondIndex)const;
     virtual ~MatrizDispersa();

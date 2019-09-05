@@ -51,13 +51,14 @@ MatrizDispersa MatrizDispersa::transpuesta() {
 }
 
 MatrizDispersa operator*(const MatrizDispersa & M1, const MatrizDispersa & M2) {
-    MatrizDispersa temp(M1.c_columnas, M2.c_filas);
-    int valor=0;
+
+    long long int valor=0;
     if (M1.c_columnas == M2.c_filas){
+        MatrizDispersa temp(M1.c_columnas, M2.c_filas);
         for (int k = 0; k < M1.c_filas; k++) {
             for (int i = 0; i < M2.c_columnas; i++){
                 for (int j = 0; j < M1.c_columnas; j++) {
-                    valor += (M1.getElement(k, j) * M2.getElement(j, i));
+                    valor = (M1.getElement(k, j) * M2.getElement(j, i));
                 }
                 if (valor != 0) {
                     temp.vector_valores.push_back(valor);
@@ -79,6 +80,23 @@ MatrizDispersa operator+(const MatrizDispersa &M1, const MatrizDispersa &M2) {
                     M3.vector_valores.push_back(M1.getElement(i, j) + M2.getElement(i, j));
                     M3.vector_pFilas.push_back(i);
                     M3.vector_pColumnas.push_back(j);
+            }
+        }
+        M3.c_noNulos = M3.vector_valores.size();
+        return M3;
+    }
+    else
+        throw logic_error("Las matrices tienen diferentes dimensiones");
+}
+
+MatrizDispersa operator-(const MatrizDispersa &M1, const MatrizDispersa &M2) {
+    MatrizDispersa M3(M1.c_filas,M1.c_columnas);
+    if (M1.c_filas == M2.c_filas && M1.c_columnas == M2.c_columnas){
+        for (int i=0; i < M1.c_filas; i++){
+            for (int j = 0; j < M2.c_columnas; j++){
+                M3.vector_valores.push_back(M1.getElement(i, j) - M2.getElement(i, j));
+                M3.vector_pFilas.push_back(i);
+                M3.vector_pColumnas.push_back(j);
             }
         }
         M3.c_noNulos = M3.vector_valores.size();

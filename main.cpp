@@ -40,8 +40,8 @@ int main() {
         cout<<endl;
     }
     cout<<endl<<"Matriz 5: "<<endl;
-    for (int i=0;i<m5.getFila();i++){
-        for (int j=0;j<m5.getColumna();j++){
+    for (int i=0; i < m5.getFila(); i++){
+        for (int j=0; j < m5.getColumna(); j++){
             cout<<m5.getElement(i,j)<<" ";
         }
         cout<<endl;
