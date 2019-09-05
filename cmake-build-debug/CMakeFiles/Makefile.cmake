@@ -130,5 +130,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Matriz_Dispersa.dir/DependInfo.cmake"
+  "CMakeFiles/unidad_1_matriz_dispersa_mauricio_rodriguez.dir/DependInfo.cmake"
   )

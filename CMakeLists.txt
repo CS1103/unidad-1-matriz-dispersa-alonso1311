@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.14)
-project(Matriz_Dispersa)
+project(unidad_1_matriz_dispersa_mauricio_rodriguez)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Matriz_Dispersa main.cpp)
+include_directories(.)
+
+add_executable(unidad_1_matriz_dispersa_mauricio_rodriguez
+        main.cpp
+        MatrizDispersa.cpp
+        MatrizDispersa.h)
