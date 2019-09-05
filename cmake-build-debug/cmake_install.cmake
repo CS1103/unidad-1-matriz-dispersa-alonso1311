@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-mauricio-rodriguez-master
+# Install script for directory: C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-mauricio-rodriguez-master/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

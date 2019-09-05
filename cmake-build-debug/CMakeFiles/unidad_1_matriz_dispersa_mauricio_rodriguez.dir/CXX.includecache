@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-mauricio-rodriguez-master/MatrizDispersa.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.cpp
+MatrizDispersa.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.h
+
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.h
 vector
 -
 ctime
@@ -14,15 +18,5 @@ ctime
 cstdlib
 -
 iostream
--
-
-C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-mauricio-rodriguez-master/main.cpp
-iostream
--
-cassert
--
-MatrizDispersa.h
-C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-mauricio-rodriguez-master/MatrizDispersa.h
-time.h
 -
 

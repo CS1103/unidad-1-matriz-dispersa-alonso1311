@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-mauricio-rodriguez-master/MatrizDispersa.cpp" "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-mauricio-rodriguez-master/cmake-build-debug/CMakeFiles/unidad_1_matriz_dispersa_mauricio_rodriguez.dir/MatrizDispersa.cpp.obj"
-  "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-mauricio-rodriguez-master/main.cpp" "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-mauricio-rodriguez-master/cmake-build-debug/CMakeFiles/unidad_1_matriz_dispersa_mauricio_rodriguez.dir/main.cpp.obj"
+  "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.cpp" "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/cmake-build-debug/CMakeFiles/unidad_1_matriz_dispersa_mauricio_rodriguez.dir/MatrizDispersa.cpp.obj"
+  "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/main.cpp" "C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/cmake-build-debug/CMakeFiles/unidad_1_matriz_dispersa_mauricio_rodriguez.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
