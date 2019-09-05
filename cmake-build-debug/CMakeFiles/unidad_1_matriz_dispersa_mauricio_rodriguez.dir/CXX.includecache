@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.cpp
-MatrizDispersa.h
-C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.h
-
-C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/Definiciones.h
+iostream
+-
+cassert
+-
+time.h
+-
 vector
 -
 ctime
@@ -19,4 +21,18 @@ cstdlib
 -
 iostream
 -
+
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.cpp
+MatrizDispersa.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.h
+
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.h
+Definiciones.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/Definiciones.h
+
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/main.cpp
+MatrizDispersa.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/MatrizDispersa.h
+Definiciones.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/unidad-1-matriz-dispersa-alonso1311-master/Definiciones.h
 
