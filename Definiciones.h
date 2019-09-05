@@ -14,6 +14,8 @@
 #include <iostream>
 
 typedef unsigned long int tipoEntero;
+typedef long int Tamano_Matriz;
+typedef int Escalar;
 using namespace std;
 
 

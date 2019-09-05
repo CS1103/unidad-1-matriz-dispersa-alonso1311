@@ -13,8 +13,9 @@ void Imprimir(MatrizDispersa m){
 
 int main() {
     srand(time(nullptr));
-    MatrizDispersa m1(5,5);
+    MatrizDispersa m1(1000,1000);
     m1.rellenar();
+    Imprimir(m1);
     MatrizDispersa m2 = m1.transpuesta();
     MatrizDispersa m3 = 5*m1;
     MatrizDispersa m4 = m1+m3;

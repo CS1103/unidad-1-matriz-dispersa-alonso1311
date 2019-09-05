@@ -13,18 +13,18 @@ private:
     int c_columnas;
     int c_noNulos;
     vector<tipoEntero>vector_valores;
-    vector<int>vector_pFilas;
-    vector<int>vector_pColumnas;
+    vector<Tamano_Matriz>vector_pFilas;
+    vector<Tamano_Matriz>vector_pColumnas;
 public:
     MatrizDispersa();
-    MatrizDispersa(const long int &,const  long int &);
-    MatrizDispersa(const long int &,const  long int &,const long int &);
-    int getColumna(){return c_columnas;}
-    int getFila(){return c_filas;}
-    friend MatrizDispersa operator *(const int &,const MatrizDispersa &);
-    friend MatrizDispersa operator*(const MatrizDispersa &, const MatrizDispersa &);
-    friend MatrizDispersa operator+(const MatrizDispersa &, const MatrizDispersa &);
-    friend MatrizDispersa operator-(const MatrizDispersa &, const MatrizDispersa &);
+    MatrizDispersa(const Tamano_Matriz &,const  Tamano_Matriz &);
+    MatrizDispersa(const Tamano_Matriz &,const  Tamano_Matriz &,const Tamano_Matriz &);
+    Tamano_Matriz getColumna(){return c_columnas;}
+    Tamano_Matriz getFila(){return c_filas;}
+    friend MatrizDispersa operator *(const Escalar &, const MatrizDispersa &);
+    friend MatrizDispersa operator *(const MatrizDispersa &, const MatrizDispersa &);
+    friend MatrizDispersa operator +(const MatrizDispersa &, const MatrizDispersa &);
+    friend MatrizDispersa operator -(const MatrizDispersa &, const MatrizDispersa &);
     void rellenar();
     int getElement(int &firstIndex,int &secondIndex)const;
     virtual ~MatrizDispersa();

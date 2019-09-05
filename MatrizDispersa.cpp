@@ -3,26 +3,28 @@
 //
 #include "MatrizDispersa.h"
 
-MatrizDispersa::MatrizDispersa(const long int &cFilas,const long int &cColumnas) : c_filas(cFilas), c_columnas(cColumnas) {
+MatrizDispersa::MatrizDispersa(const Tamano_Matriz &cFilas,const Tamano_Matriz &cColumnas) : c_filas(cFilas), c_columnas(cColumnas) {
     //dispersion = 10+rand()%40;
     dispersion = 50;
-    c_noNulos = int((dispersion*c_filas*c_columnas)/100);
+    c_noNulos = Tamano_Matriz((dispersion*c_filas*c_columnas)/100);
 }
 
-MatrizDispersa::~MatrizDispersa() {
-}
+MatrizDispersa::MatrizDispersa(const Tamano_Matriz &cFilas, const Tamano_Matriz &cColumnas, const Tamano_Matriz &cNoNulos):
+        c_filas(cFilas),c_columnas(cColumnas),c_noNulos(cNoNulos){}
 
 MatrizDispersa::MatrizDispersa():c_filas(0),c_columnas(0),c_noNulos(0){}
 
+MatrizDispersa::~MatrizDispersa() {}
+
 void MatrizDispersa::rellenar() {
     //Se asignan valores del 1 al 99 a la matriz
-    for (tipoEntero i = 0; i < c_noNulos; i++){
+    for (int i = 0; i < c_noNulos; i++){
         vector_valores.push_back(rand()%90);
         //Se asignan las coordenadas
         vector_pFilas.push_back(rand() % (c_filas + 1));
         vector_pColumnas.push_back(rand() % (c_columnas + 1));
         //Se busca que no se repitan
-        for (tipoEntero j = 0; j < i; j++){
+        for (int j = 0; j < i; j++){
             if (vector_pFilas[i] == vector_pFilas[j] && vector_pColumnas[i] == vector_pColumnas[j]){
                 vector_pFilas[i] = rand()%(c_filas+1);
                 vector_pColumnas[i] = rand()%(c_columnas+1);}
@@ -104,7 +106,7 @@ MatrizDispersa operator-(const MatrizDispersa &M1, const MatrizDispersa &M2) {
         throw logic_error("Las matrices tienen diferentes dimensiones");
 }
 
-MatrizDispersa operator*(const int & valor, const MatrizDispersa & M1) {
+MatrizDispersa operator*(const Escalar & valor, const MatrizDispersa & M1) {
     MatrizDispersa temp(M1.c_filas, M1.c_columnas,M1.c_noNulos);
     for (int i = 0; i < M1.c_noNulos; i++){
         temp.vector_valores.push_back(M1.vector_valores[i]*valor);
@@ -114,5 +116,3 @@ MatrizDispersa operator*(const int & valor, const MatrizDispersa & M1) {
     return temp;
 }
 
-MatrizDispersa::MatrizDispersa(const long int &cFilas, const long int &cColumnas, const long int &cNoNulos):
-        c_filas(cFilas),c_columnas(cColumnas),c_noNulos(cNoNulos){}
